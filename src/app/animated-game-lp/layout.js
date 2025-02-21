@@ -1,11 +1,11 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Game LP",
+    title: "Animated Game LP",
     description: "Game LP",
     //===== OG Tags =====
     openGraph: {
-      title: 'Game LP',
+      title: 'Animated Game LP',
       description: 'Game LP',
       url: '/game-lp    ',
       siteName: 'Infinity Animations',
