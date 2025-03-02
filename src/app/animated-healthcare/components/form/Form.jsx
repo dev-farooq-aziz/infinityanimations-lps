@@ -206,7 +206,7 @@ const Form = ({ bg }) => {
                     <textarea name='message' placeholder='Message' rows={5} className={`pt-4 text-[14px] text-[#000] px-5 font-normal placeholder:text-[#000] placeholder:font-normal poppins block w-full resize-none ${bg} outline-none rounded-none`} onChange={handleDataChange}></textarea>
                 </div>
                 <div className="btn text-center">
-                    <button type='submit' className='py-[10px] w-5/12 border-0 text-white text-[16px] leading-[25px] capitalize font-medium bg-[#FF2D4B] poppins rounded-[5px]' onClick={handleFormSubmit} disabled={isDisabled}>
+                    <button type='submit' className='py-[10px] w-full md:w-5/12 border-0 text-white text-[16px] leading-[25px] capitalize font-medium bg-[#FF2D4B] poppins rounded-[5px]' onClick={handleFormSubmit} disabled={isDisabled}>
                         {formStatus}
                     </button>
                 </div>

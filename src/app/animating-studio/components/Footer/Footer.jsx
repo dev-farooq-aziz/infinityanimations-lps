@@ -5,11 +5,12 @@ import Link from 'next/link'
 import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { EnvelopeIcon } from '@heroicons/react/24/solid'
-import { ChatAlt2, Globe, Phone, User } from 'heroicons-react'
+import { Phone } from 'heroicons-react'
 // ==== Images 
 import Payment from "media/video-explainer2/payment-img.png"
 import UpArrow from "media/video-explainer2/up-arrow.png"
 import FooterBg from "media/infinity-studio-lp-2/footer-bg.png"
+import { MapPinIcon } from '@heroicons/react/24/outline';
 
 const Contact = () => {
     //========== Form
@@ -197,18 +198,18 @@ const Contact = () => {
                                 </p>
                                 <ul>
                                     <li className='py-[12px]'>
-                                        <a href="tel:012-345-6789" className='text-[16px] lg:text-[18px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4'>
+                                        <a href="tel:012-345-6789" className='text-[16px] lg:text-[18px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4 w-max'>
                                             <Phone className='bg-[#fff] text-[#000] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> 012-345-6789
                                         </a>
                                     </li>
                                     <li className='py-[12px]'>
-                                        <a href="mailto:info@xyz.com" className='text-[16px] lg:text-[18px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4'>
+                                        <a href="mailto:info@xyz.com" className='text-[16px] lg:text-[18px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4 w-max'>
                                             <EnvelopeIcon className='bg-[#fff] text-[#000] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> info@xyz.com
                                         </a>
                                     </li>
                                     <li className='py-[12px]'>
-                                        <a href="javascript:;" className='text-[16px] lg:text-[18px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4'>
-                                            <Globe className='bg-[#fff] text-[#000] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> infinityanimations
+                                        <a href="javascript:;" target='_blank' className='text-[16px] lg:text-[18px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4 w-max'>
+                                            <MapPinIcon className='bg-[#fff] text-[#000] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> Office abc street, New York
                                         </a>
                                     </li>
                                 </ul>

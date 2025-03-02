@@ -194,26 +194,26 @@ const Contact = () => {
                                     Hit Game Together</h2>
                                 <p className='text-[13px] sm:text-[15px] xl:text-[18px] leading-[25px] sm:leading-[30px] xl:leading-[33px] text-white poppins mb-7 lg:mb-10 lg:w-11/12 xl:pr-5'>Our mobile games deliver immersive experiences with intuitive controls and engaging gameplay. Designed for all devices, they offer seamless performance and stunning visuals.</p>
                                 <div className="details">
-                                    <Link href="javascript:;" className="flex items-center gap-4 mb-4 lg:mb-7">
+                                    <a href="javascript:;" className="flex items-center gap-4 mb-4 lg:mb-7 w-max">
                                         <Image src={Location} alt='Location' />
                                         <span className='text-[14px] xl:text-[17px] leading-[24px] xl:leading-[27px] font-normal poppins'>Office abc street, London</span>
-                                    </Link>
-                                    <Link href="javascript:;" className="flex items-center gap-4 mb-4 lg:mb-7">
+                                    </a>
+                                    <a href="javascript:;" className="flex items-center gap-4 mb-4 lg:mb-7 w-max">
                                         <Image src={Location} alt='Location' />
                                         <span className='text-[14px] xl:text-[17px] leading-[24px] xl:leading-[27px] font-normal poppins'>Office abc street, Canada</span>
-                                    </Link>
-                                    <Link href="javascript:;" className="flex items-center gap-4 mb-4 lg:mb-7">
+                                    </a>
+                                    <a href="javascript:;" className="flex items-center gap-4 mb-4 lg:mb-7 w-max">
                                         <Image src={Location} alt='Location' />
                                         <span className='text-[14px] xl:text-[17px] leading-[24px] xl:leading-[27px] font-normal poppins'>Office abc street, New York</span>
-                                    </Link>
-                                    <Link href="tel:;" className="flex items-center gap-4  mb-4 lg:mb-8">
+                                    </a>
+                                    <a href="tel:012-345-6789" className="flex items-center gap-4 mb-4 lg:mb-8 w-max">
                                         <Image src={Teliphone} alt='Number' />
                                         <span className='text-[14px] xl:text-[17px] leading-[24px] xl:leading-[27px] font-normal poppins'>012-345-6789</span>
-                                    </Link>
-                                    <Link href="mailto:info@xyz.com" className="flex items-center gap-4  mb-4 lg:mb-8">
+                                    </a>
+                                    <a href="mailto:info@xyz.com" className="flex items-center gap-4 mb-4 lg:mb-8 w-max">
                                         <Image src={Email} alt='Email' />
                                         <span className='text-[14px] xl:text-[17px] leading-[24px] xl:leading-[27px] font-normal poppins'>info@xyz.com</span>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div>
                                     <Image src={Payment} alt='Payment-Methods' className='w-8/12 sm:w-5/12 lg:w-6/12 mt-5 lg:mt-8 object-contain' />
@@ -273,18 +273,18 @@ const Contact = () => {
             {/* // ========================= CopyRight Start ======================= // */}
             <section className='py-2'>
                 <div className="max-w-7xl mx-auto px-4 md:px-8 xl:px-0">
-                    <div className="flex flex-col lg:flex-row items-center justify-between">
+                    <div className="flex items-center justify-center">
                         <div>
                             <p className='text-[15px] font-normal leading-[22px] md:leading-[33px] poppins text-white text-center md:text-left'>© Infinity Animations 2024. - All Rights Reserved By Dreamweave Media Inc</p>
                         </div>
-                        <div className="flex items-center gap-4 lg:mr-[120px] xl:mr-[80px]">
+                        {/* <div className="flex items-center gap-4 lg:mr-[120px] xl:mr-[80px]">
                             <Link href="javascript:;" className='text-[15px] font-normal leading-[33px] poppins text-white'>
                                 Terms of Services
                             </Link>
                             <Link href="javascript:;" className='text-[15px] font-normal leading-[33px] poppins text-white'>
                                 Privacy Policy
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

@@ -24,31 +24,31 @@ const Contact = () => {
                                 </div>
                                 <ul>
                                     <li className='py-[12px]'>
-                                        <a href="javascript:;" target='_blank' className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4'>
+                                        <a href="javascript:;" target='_blank' className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4 w-max'>
                                             <Image src={map} alt='Infinity Animations' className='w-[18px] h-[25px]' />
                                             <span>Office abc street, New York</span>
                                         </a>
                                     </li>
                                     <li className='py-[12px]'>
-                                        <a href="javascript:;" target='_blank' className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4'>
+                                        <a href="javascript:;" target='_blank' className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4 w-max'>
                                             <Image src={map} alt='Infinity Animations' className='w-[18px] h-[25px]' />
                                             <span>Office abc street, Canada</span>
                                         </a>
                                     </li>
                                     <li className='py-[12px]'>
-                                        <a href="javascript:;" target='_blank' className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4'>
+                                        <a href="javascript:;" target='_blank' className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4 w-max'>
                                             <Image src={map} alt='Infinity Animations' className='w-[18px] h-[25px]' />
-                                            <span className='w-full 5xl:w-8/12'>Office abc street, London</span>
+                                            <span>Office abc street, London</span>
                                         </a>
                                     </li>
                                     <li className='py-[12px]'>
-                                        <a href="tel:012-345-6789" className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4'>
+                                        <a href="tel:012-345-6789" className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4 w-max'>
                                             <Image src={phone} alt='Infinity Animations' className='w-[20px] h-[25px]' />
                                             <span>012-345-6789</span>
                                         </a>
                                     </li>
                                     <li className='py-[12px]'>
-                                        <a href="mailto:info@xyz.com" className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4'>
+                                        <a href="mailto:info@xyz.com" className='text-[16px] leading-[24px] lg:leading-[26px] text-white poppins flex items-center gap-4 w-max'>
                                             <Image src={email} alt='Infinity Animations' className='w-[20px] h-[15px] 5xl:h-[20px]' />
                                             <span>info@xyz.com</span>
                                         </a>
@@ -59,7 +59,7 @@ const Contact = () => {
                         </div>
                         <div className="col-span-1 hidden md:block"></div>
                         <div className="col-span-12 md:col-span-10 5xl:col-span-5">
-                            <div className="bg-white px-8 py-8 md:px-10 md:py-12 relative">
+                            <div className="bg-white px-4 py-8 md:px-10 md:py-12 relative">
                                 <span className="hidden md:block before:absolute before:bg-[#D8D8D8] before:w-[1.5px] 5xl:before:w-[1px] xl:before:w-[1.5px] before:h-[108%] md:before:h-[112%] 5xl:before:h-[105%] xl:before:h-[112%] before:left-0 before:top-[-4%] md:before:top-[-6%] 5xl:before:top-[-2.5%] xl:before:top-[-6%] after:absolute after:bg-[#D8D8D8] after:w-[110%] 5xl:after:w-[106%] xl:after:w-[115%] after:h-[1.5px] 5xl:after:h-[1px] xl:after:h-[1.5px] after:left-[-5%] 5xl:after:left-[-3%] xl:after:left-[-7%] after:top-0"></span>
                                 <div className="mb-8">
                                     <h4 className="text-[25px] poppins font-semibold text-black text-center mb-2">Fill Your <span className='text-[#F5090B]'>Requirements</span></h4>
